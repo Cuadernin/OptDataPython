@@ -1,13 +1,13 @@
-# Optimización de lectura de grandes datos usando Pandas
+# Optimización de lectura de datasets usando Pandas
 Tanto Python como `Pandas` están bien optimizados para leer millones de registros de forma rápida y eficaz. Sin embargo, muchas veces es posible optimizar aún más. 
 
 La siguiente imagen es un caso real de una base de datos de 20GB cuya lectura a partir de CSV toma 17 mins y gracias a la siguiente guia logré disminuir el tiempo a menos de 2 mins.
 
-<img align="center" src=https://github.com/Cuadernin/OptDataPython/blob/main/TimeExecution.jpg height="180" width="500"> 
+<img align="center" src=https://github.com/Cuadernin/OptDataPython/blob/main/TimeExecution.jpg height="180" width="510"> 
 <br/>
 
 ---
-## Guía (usando `Pandas`)
+## Guía 📑 (usando `Pandas`)
 En un primer instante es necesario leer los datos en crudo para iniciar con la optimización.
 
 1. Realiza un análisis exploratorio haciendo enfasis en identificar los mejores tipos de datos para cada campo. Este paso es sumamente importante ya que a partir de aquí es posible determinar qué campos son optimizables. 
