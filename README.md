@@ -27,6 +27,6 @@ df['Casado'] = df.Casado.astype("boolean")
 3. Después de haber optimizado los campos debes guardar el dataset usando la extensión **[FEATHER](https://arrow.apache.org/docs/python/feather.html)** en caso que solo lo vayas a usar en Python o R. En caso que no sea así podrías usar **[alguna de estas](https://towardsdatascience.com/the-best-format-to-save-pandas-data-414dca023e0d)**.
 ___
 
-> **Nota: Existen ciertas librerias alternativas a `Pandas`. Puedes usarlas pero, desde mi experiencia, antes debes identificar si la librería te ayudará después de la lectura ya que algunas tienen limitaciones o son muy estrictas con los tipos de datos, lo que puede dificultar los pasos siguientes.**
+> **Nota: Existen ciertas librerias alternativas a `Pandas`. Puedes usarlas pero desde mi experiencia antes debes identificar si la librería te ayudará después de la lectura ya que algunas tienen limitaciones o son muy estrictas con los tipos de datos, lo que puede dificultar los pasos siguientes.**
 
 
